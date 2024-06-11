@@ -1,6 +1,6 @@
 # About Me Website
 
-Welcome to my personal website repository! This project is a personal website created from scratch using HTML, CSS, and JavaScript. It includes a homepage, a resume page, a page dedicated to my cat, a contact me page, and a personal interest page. The website is designed to showcase my basic skills in web development.
+Welcome to my personal website repository! This was one of my first projects and is a personal website created entirely from scratch using HTML, CSS, and JavaScript. It includes a homepage, a resume page, a page dedicated to my cat, a contact me page, and a personal interest page. The website is designed to showcase my basic skills in web development.
 
 ## Table of Contents
 
