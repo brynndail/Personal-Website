@@ -1,0 +1,66 @@
+<!-- Style Sheet: styles.css -->
+
+body {
+      font-family: Verdane, Arial, san-seriff;
+	  font-size: 120%;
+	  background-color: #dbf0d2;
+	  padding: 120px;
+	  margin-top: 120px;
+	  color:#dbf0d2;
+	  }
+	  
+h1   {
+	  color: green;
+	  text-align: center;
+	  font-size: 25pt
+	 }
+	 
+h2   {
+	  color:green;
+	  margin-bottom: 10px;
+	  font-size: 20pt;
+     }
+
+p    {
+	  margin-top: 5px;
+	  margin-bottom: 15px;
+	  font-family: Arial;
+	  font-size: 14pt;
+	}
+
+h3  {font-size: 17pt}
+
+hr {border-color: green}
+
+
+
+.FixedBox {
+	position: absolute;
+	top: 500px;
+	left: 850px;
+	width: 300px;
+	background-color: #49962a;
+	border-width: 8px;
+	border-style: outset;
+	border-color: #22520f;
+	padding: 10px;
+	margin: 5px;
+	font-weight: bold;
+	font-size: 18pt;
+	color: black;
+}
+	
+.header {
+	background-color:#dbf0d2;
+	z-index:1;
+	position: fixed;
+	color: black;
+	top: 0px;
+	left: 0px;
+	height: 210px;
+	width:100%;
+	border-style: double;
+	border-color:green;
+}
+
+

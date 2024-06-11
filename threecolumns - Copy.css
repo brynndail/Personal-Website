@@ -1,0 +1,89 @@
+<!-- Style Sheet: threecolumns.css -->
+
+
+.header {
+	background-color:#dbf0d2;
+	z-index:1;
+	position: fixed;
+	color: black;
+	top: 0px;
+	left: 0px;
+	height: 210px;
+	width:100%;
+	border-style: double;
+	border-color:green;
+}
+
+.leftpanel {
+	z-index: 0;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 210px;
+	width: 170px;
+	padding: 10px;
+	background-color:#dbf0d2;
+	color:green;
+	min-height: 100%;
+	border-style: solid;
+	border-color: green;
+	border-width: 1px;
+}
+
+.header {
+	background-color:#dbf0d2;
+	z-index:1;
+	position: fixed;
+	color: black;
+	top: 0px;
+	left: 0px;
+	height: 210px;
+	width:100%;
+	border-style: double;
+	border-color:green;
+}
+
+.middlepanel {
+	margin-left: 170px;
+	margin-right: 180px;
+	margin-top: 210px;
+	background-color:rgb(240,254,238);
+	color:green;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-style: solid;
+	border-color: green;
+	padding: 10px;
+	min-height: 100%;
+}
+
+.rightpanel {
+	z-index: 0;
+	position: absolute;
+	right: 0px;
+	top: 210px;
+	width: 160px;
+	padding:10px;
+	background-color:#dbf0d2;
+	color: green;
+	min-height: 100%;
+	border-style: solid;
+	border-color: green;
+	border-width: 1px;
+}
+table img {
+	width: 100%;
+	max-width: 500px; 
+	height: auto;
+  }
+  
+ <!--
+.bodycontainer {
+	position: absolute;
+	left: 0px;
+	max-width: 100%;
+	min-width: 650px;
+}
+-->

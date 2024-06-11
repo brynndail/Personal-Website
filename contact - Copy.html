@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contacts Page</title>
+<link rel="stylesheet" href="styles.css" />
+
+<script>
+function foo()
+{
+  var e = document.thisForm.fullname.value + "\n" + document.thisForm.email.value
+  e = e + "\n\n" + document.thisForm.subject.value + "\n"
+  
+var p = ""
+  switch(document.thisForm.priority.value)
+  {
+      case "none":
+	    p = "No priority selected..."
+		break
+      case "urgent":
+	    p = "URGENT: Read me now!!"
+		break
+	  case "high": 
+	    p = "Important! Read me ASAP!"
+		break
+	  case "medium":
+	    p = "Kinda important, read soon"
+		break
+	  case "low":
+	    p = "Not very important, read when you can"
+		break
+	  case "spam":
+	    p = "Just messaging to message hehe"
+		break
+	}
+	e = e + "Priority: " + p + "\n\n" + document.thisForm.message.value
+	
+	document.thisForm.sentMessage.value = e
+}
+</script>
+
+</head>
+<body style=background-color:rgb(240,254,238)>
+
+<div class="header">
+<img src="brynnp.jpg" alt="Brynn Dail with Poutine" align="left"/> 
+<img src="brynnp2.jpg" alt="Brynn Dail eating Poutine" align="right" />
+<center>
+<br>
+<br>
+<h1> Contact Me</h1>
+<h2> Brynn Dail </h2>
+<br>
+</center>
+</div>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+
+
+
+<h2>Phone</h2>
+<p> +1(392)-958-3957 </p>
+<h2>Email</h2>
+<p> 
+<a href = "mailto: notarealemail.com">notarealemail@gmail.com </a>
+</p>
+
+<h2>Social Media</h2>
+<table>
+<!--
+<tr>
+ <th>Social Media</th>
+ <th>Username</th>
+</tr>
+--->
+<tr style=color:red>
+ <th>Instagram</th>
+ <th>Brynnsta</th>
+</tr>
+<tr style=color:pink>
+ <th>LinkedIn</th>
+ <th>LinkedBrynn</th>
+</tr>
+<tr style=color:blue>
+ <th>Facebook</th>
+ <th>Brynnbook</th>
+</tr>
+<tr style=color:orange>
+ <th>Snapchat</th>
+ <th>Brynnsc</th>
+</tr>
+<br><br><br>
+
+<form name="thisForm">
+<table>
+
+<tr>
+<th colspan="2" style="color:green;font-size: 22pt;">Use This Form to Contact Me</th>
+</tr>
+
+<tr>
+<td style="color:green;font-size: 20pt;">Fullname: </td> <td><input type="text" size="40" name="fullname"> </td>
+</tr>
+
+<tr>
+<td style="color:green;font-size: 20pt;">E-mail Address: </td> <td><input type="text" size="40" name="email"> </td>
+</tr>
+
+<tr>
+<td style="color:green;font-size: 20pt;">Subject: </td> <td><input type="text" size="40" name="subject"> </td>
+</tr>
+
+<tr>
+<td style="color:green;font-size: 20pt;"> Priority:  </td> 
+<td>
+<select name="priority" id="priority">
+  <option value="none">..Choose a priority..</option>
+  <option value="urgent">URGENT!</option>
+  <option value="high">High</option>
+  <option value="medium">Medium</option>
+  <option value="low">Low</option>
+  <option value="spam">Read after reading Spam!</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td valign="top" style="color:green;font-size: 20pt;">Message: </td> <td><textarea name="message" rows="4" cols="40"></textarea></td>
+</tr>
+
+<tr>
+<td><input type="reset" value="Clear Form"></td>
+<td><input type="button" value="Send Message" onClick="foo()"></td>
+</tr>
+
+<tr> <td> <br><br> </td> </tr>
+
+<tr>
+<th colspan="2" style="color:green;font-size: 22pt;">If your message passes inspection, it will be displayed below:</th>
+</tr>
+
+<tr>
+<td valign="top" style="color:green;font-size: 20pt;">Message Sent:</td>
+<td><textarea name="sentMessage" rows="12" cols="40" readonly></textarea></td>
+</tr>
+
+</table>
+</form>
+
+		
+</body>
+</html>
